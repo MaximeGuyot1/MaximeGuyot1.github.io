@@ -1,0 +1,44 @@
+body {
+  background: rgb(248, 247, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 60%;
+  height: 50%;
+}
+
+.container h1 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1%;
+}
+
+.container input {
+  display: block;
+  width: 300px;
+  margin: 0 auto 1%;
+  background: rgb(248, 247, 245);
+  border-style: none;
+  font-style: italic;
+  text-align: center;
+}
+
+/* J'utilise :focus pour appliquer le style une fois dans l'input, puis outline permet d'enlever le fait que mon input soit entouré d'une bordure noire */
+.container input:focus {
+  outline: none;
+}
+
+#cadre {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#cadre p {
+  text-align: center;
+  word-break: break-all;
+  cursor: pointer;
+}
