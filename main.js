@@ -1,5 +1,9 @@
 const newTask = document.getElementById("newTask");
 const tasks = document.getElementById("cadre");
+const notif = new Notification("Todolist maison", {
+  body: "Renseignez vos objectifs du jour !",
+  icon: "objectif.jpg",
+});
 
 newTask.addEventListener("keypress", (e) => {
   var keypressed = e.key;
@@ -18,26 +22,13 @@ newTask.addEventListener("keypress", (e) => {
   });
 });
 
-/*
-const button = document.querySelector("button");
-
-button.addEventListener("click", () => {
-  Notification.requestPermission().then((perm) => {
-    if (perm == "granted") {
-      new Notification("bosse connard", {
-        body: "Oui oui bosse !",
-      });
-    }
-  });
-}); */
-
 window.addEventListener("load", () => {
   Notification.requestPermission().then((perm) => {
     if (perm == "granted") {
-      new Notification("Calendrier maison", {
-        body: "Renseignez vos objectifs du jour !",
-        icon: "objectif.jpg",
-      });
+      notif;
     }
   });
 });
+
+var math = 7 * Math.pow(10, 2);
+console.log(math);

@@ -1,9 +1,13 @@
+@import url(https://fonts.bunny.net/css?family=abeezee:400,400i);
+
 body {
   background: rgb(248, 247, 245);
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  flex-direction: column;
+  font-family: "ABeeZee", sans-serif;
 }
 
 .container {
@@ -41,4 +45,10 @@ body {
   text-align: center;
   word-break: break-all;
   cursor: pointer;
+}
+
+a {
+  margin-top: 1%;
+  color: rgb(0, 174, 255);
+  font-size: 0.8em;
 }
