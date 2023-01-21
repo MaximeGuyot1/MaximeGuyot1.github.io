@@ -23,8 +23,8 @@ body {
 
 .container input {
   display: block;
-  width: 300px;
-  margin: 0 auto 1%;
+  width: 50%;
+  margin: 2% auto 2%;
   background: rgb(248, 247, 245);
   border-style: none;
   font-style: italic;
@@ -45,6 +45,10 @@ body {
   text-align: center;
   word-break: break-all;
   cursor: pointer;
+}
+
+button {
+  margin-top: 2%;
 }
 
 a {
