@@ -1,0 +1,29 @@
+@import url(https://fonts.bunny.net/css?family=abeezee:400,400i);
+
+body {
+  background: rgb(248, 247, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "ABeeZee", sans-serif;
+  margin: 0;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 50% 0;
+}
+
+li > a {
+  text-decoration: none;
+  color: black;
+}
+li > a:hover {
+  color: blue;
+}

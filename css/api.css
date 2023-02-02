@@ -1,0 +1,19 @@
+@import url(https://fonts.bunny.net/css?family=abeezee:400,400i);
+
+body {
+  background: rgb(248, 247, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: "ABeeZee", sans-serif;
+  margin: 0;
+}
+
+img {
+  margin-top: 2.5%;
+  width: 500px;
+  height: 500px;
+  border: 1px solid black;
+}
